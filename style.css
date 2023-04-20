@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "LuckiestGuy";
+  src: url("./LuckiestGuy-Regular.ttf");
+}
+
+h1,
+p {
+  font-family: "LuckiestGuy";
+}
+
+body {
+  background-color: rgba(49, 139, 49, 0.733);
+  color: black;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  background: rgb(137, 167, 86);
+  width: 800px;
+  margin-left: 260px;
+  box-shadow: 3px 3px 3px 3px;
+  text-shadow: 2px 2px 2px grey;
+}
+p {
+  font-size: 40px;
+  text-shadow: 2px 2px 2px seagreen;
+  background: rgb(137, 167, 86);
+}
+
+.centerDiv {
+  background: rgba(49, 139, 49, 0.733);
+  border: 5px solid black;
+  width: 750px;
+  height: 300px;
+  text-align: center;
+  margin-left: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+label {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* #single {
+  padding: 7px 10px;
+  outline: none;
+  font-size: 20px;
+  background-color: rgb(229, 229, 121);
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+} */
+
+#displayCalories {
+  padding: 70px 0px;
+  margin: 10px 200px 10px 200px;
+  background-color: lightgrey;
+}
+button {
+  padding: 15px 70px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px grey;
+  margin-top: 10px;
+}
